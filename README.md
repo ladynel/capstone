@@ -1,4 +1,0 @@
-capstone
-========
-
-Capstone Project School
