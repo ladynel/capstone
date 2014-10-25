@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Capstone</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <div id="wrapper">
-    <%= yield %>
-  </div>
-</body>
+  <head>
+    <%= favicon_link_tag ('icon.png'), rel: "shortcut icon" %>
+    <title>Lugnut's Muscle Restorations</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="wrapper">
+      <%= yield %>
+    </div>
+  </body>
 </html>
